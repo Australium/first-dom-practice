@@ -4,6 +4,10 @@ body {
     line-height: 40px;
 }
 
+p {
+    margin: 0;
+}
+
 .wrap {
     margin: 0 0 30px;
 }
@@ -13,7 +17,7 @@ body {
     margin-right: 30px;
 }
 
-.btn {
+.button {
     display: inline-block;
     padding: 10px;
 }
@@ -21,5 +25,9 @@ body {
 .container {
     display: flex;
     flex-direction: column;
-    padding: 0 0 0 20px;
+    padding: 20px;
+    border: 1px solid #d6e9c6;
+    border-radius: 4px;
+    background-color: #dff0d8;
+    color: red;
 }
